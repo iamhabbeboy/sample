@@ -1,7 +1,8 @@
+import Footer from "./components/Footer";
 import Header from "./components/Header";
 import Hero from "./components/Hero";
 import Products from "./components/Products";
-import Support from "./components/Support";
+import Catalog from "./components/Catalog";
 
 
 export default function Home() {
@@ -10,7 +11,8 @@ export default function Home() {
       <Header />
      <Hero />
      <Products />
-     <Support />
+     <Catalog />
+     <Footer />
     </main>
   );
 }

@@ -6,7 +6,9 @@
 }
 
 @theme {
-  --font-weight-extrablack: 1000; 
+  --text-hero: 4.5rem;
+  --text-hero-md: 2rem;
+  --text-hero-small: 1.5rem;
 }
 
 @theme inline {
@@ -22,11 +24,8 @@
     --foreground: #666;
   }
 }
-h1, h2, h3, h4 {
+h1, h2, h3, h4, h5 {
  font-family: "Quicksand", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: <weight>;
-  font-style: normal;
 }
 
 body {
