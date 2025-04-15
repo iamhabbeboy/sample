@@ -9,7 +9,7 @@ const Hero: React.FC = () => {
             <div className="mx-auto w-3/4">
             <h1 className={`text-hero-md md:text-hero ${quickSandFont.className}`}> We&apos;re passionate about the product delivery</h1>
             </div>
-            <p className={`animate-bounce text-hero-md ${quickSandFont.className}`}>30 years in the fashion industry</p>
+            <p className={`text-hero-md ${quickSandFont.className}`}>30 years in the fashion industry</p>
         </section>
     )
 }
