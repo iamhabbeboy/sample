@@ -14,7 +14,7 @@ const Products: React.FC = () => {
             molestiae nesciunt ea, sit ipsam eligendi unde, accusamus doloremque
             atque sequi quae possimus.
           </p>
-          <button className="border-2 border-gray-400 px-10 py-3 mt-10 transition-2s hover:bg-[#b4395d] hover:text-white hover:border-[#b4395d]">
+          <button className=" transition-all ease-in-out duration-200 border-2 border-gray-400 px-10 py-3 mt-10 transition-2s hover:bg-[#b4395d] hover:text-white hover:border-[#b4395d]">
             Buy Now{" "}
           </button>
         </div>
